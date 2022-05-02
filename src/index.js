@@ -26,7 +26,7 @@ const extendConf = function(conf) {
 
 module.exports = function(api) {
   // quasar compatibility check
-  api.compatibleWith("@quasar/app", "^3.3.3");
+  api.compatibleWith("@quasar/app", "^2.3.0");
 
   // register JSON api
   api.registerDescribeApi("QDateTable", "./component/QDateTable.json");
